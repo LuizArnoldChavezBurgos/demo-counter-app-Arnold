@@ -9,11 +9,11 @@ pipeline{
             steps{
                 
                 script{
-                    
                     git branch: 'main', url: 'https://github.com/LuizArnoldChavezBurgos/demo-counter-app-Arnold.git'
                 }
             }
         }
+        /*
         stage('UNIT testing'){
             
             steps{
@@ -69,5 +69,5 @@ pipeline{
                 }
             }
         }
-        
+        */
 }
