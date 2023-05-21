@@ -46,11 +46,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.2.0</version> <!-- Actualiza la versión a una compatible -->
-            </plugin>
         </plugins>
     </build>
 </project>
